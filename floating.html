@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <!-- 폰트 설정 START -->
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+        <style>
+            body{font-family: 'Gowun Batang', 'Courier New';}
+        </style>
+        <!-- 폰트 설정 END -->
+    </head>
+
+    <body style = "padding: 100px; background-color: #121212; color: #e0e0e0;">
+        <div>
+            <img src = "https://www.nasa.gov/wp-content/uploads/2023/03/hubble_carinanebula_mosaic_4_crop_cont_flatcrop3_cont_v25.jpg"
+            alt = "Hubble’s Sparkling New View of the Carina Nebula. This sparkling new image depicts a small section of the Carina Nebula, one of the NASA Hubble Space Telescope’s most-imaged objects."
+            style = "width: 100%; max-width: 100%; display: block; margin: 0 auto;">
+            <p style="padding-left: 20px; padding-right: 20px;">
+                <em style = "color: gray !important; font-size: 13px;">Hubble’s Sparkling New View of the Carina Nebula. This sparkling new image depicts a small section of the Carina Nebula, one of the NASA Hubble Space Telescope’s most-imaged objects.</em>
+            </p>
+        </div>
+
+        <!-- 메인 START -->
+        <div> <!-- 별로 의미는 없고 그냥 구조 나누는 용도 -->
+            <h2>─── ⊹˚. ݁₊ ⊹ . ݁˖ . ᯓ ✈︎ <em>To infinity and beyond!</em></h2>
+            <p style="text-align: right; color: gray;">
+                <em> <!-- 인라인 요소 -->
+                    Ladies and gentlemen, we are floating in space.
+                </em>
+            </p>
+        <hr> <br> <!-- LINE -->
+
+        <main> <!-- 페이지의 메인 콘텐츠 -->
+            <form>
+                <fieldset>
+                    <legend>&nbsp;Q1) 하늘을 좋아하십니까?&nbsp;</legend>
+                        <label>
+                            <input type = "radio" name = "q1" id = "agree"> 그런 편입니다.<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q1" id = "disagree"> 크게 관심은 없습니다.<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q1" id = "none"> 이곳에서 처음 고민해 보았습니다.<br>
+                        </label>
+                </fieldset>
+            <br>
+                <fieldset style="width: 100%; box-sizing: border-box; padding: 10px;">
+                    <legend>&nbsp;Q1-1) 왜 그렇게 느끼셨습니까?&nbsp;</legend>
+                        <label>
+                            <textarea style="background-color: #2e2e2e; color: #f8f8f2; overflow: hidden; resize: none; width: 100%; height: auto; padding: 10px; box-sizing: border-box;" placeholder = "이곳에 작성해 주세요."></textarea>
+                        </label>
+                </fieldset>
+            <br>
+                <fieldset>
+                    <legend>&nbsp;Q2) 빛나는 것을 보면 자신도 모르게 눈길이 갑니까?&nbsp;</legend>
+                        <label>
+                            <input type = "radio" name = "q3" id = "agree"> 그렇습니다.<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "disagree"> 그렇지는 않습니다.<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "none"> 평소에 이런 고민을 해 본 적이 없습니다.<br>
+                        </label>
+                </fieldset>
+            <br>
+                <fieldset style="width: 100%; box-sizing: border-box; padding: 10px;">
+                    <legend>&nbsp;Q2-1) 왜 그렇게 느끼셨습니까?&nbsp;</legend>
+                        <label>
+                            <textarea style="background-color: #2e2e2e; color: #f8f8f2; overflow: hidden; resize: none; width: 100%; height: auto; padding: 10px; box-sizing: border-box;" placeholder = "이곳에 작성해 주세요."></textarea>
+                        </label>
+                </fieldset>
+            </form>
+
+            <div>
+                <input type = "button" value = "제출하기" onclick = "alert('♬ All I want in life is a little bit of love to take the pain away ♬')" style = "font-family: inherit; background-color: #2e2e2e; color: #f8f8f2; display: block; margin-top: 20px !important; margin: 0 auto; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;"/>
+            </div>
+        </main>
+        </div>
+        <!-- 메인 END -->
+    </body>
+</html>
