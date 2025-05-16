@@ -17,21 +17,24 @@
             <img src = "https://www.nasa.gov/wp-content/uploads/2023/03/hubble_carinanebula_mosaic_4_crop_cont_flatcrop3_cont_v25.jpg"
             alt = "Hubble’s Sparkling New View of the Carina Nebula. This sparkling new image depicts a small section of the Carina Nebula, one of the NASA Hubble Space Telescope’s most-imaged objects."
             style = "width: 100%; max-width: 100%; display: block; margin: 0 auto;">
-            <p style="padding-left: 20px; padding-right: 20px;">
+            <p style = "padding-left: 20px; padding-right: 20px;">
                 <em style = "color: gray !important; font-size: 13px;">Hubble’s Sparkling New View of the Carina Nebula. This sparkling new image depicts a small section of the Carina Nebula, one of the NASA Hubble Space Telescope’s most-imaged objects.</em>
             </p>
         </div>
 
         <!-- 메인 START -->
-        <div>
+        <div> <!-- 별로 의미는 없고 그냥 구조 나누는 용도 -->
             <h2>─── ⊹˚. ݁₊ ⊹ . ݁˖ . ᯓ ✈︎ <em>To infinity and beyond!</em></h2>
-            <p style="text-align: right; color: gray;">
+            <p style = "text-align: right; color: gray;">
                 <em> <!-- 인라인 요소 -->
                     Ladies and gentlemen, we are floating in space.
                 </em>
             </p>
+        </div>
+
         <hr> <br> <!-- LINE -->
-        <main>
+
+        <main> <!-- 페이지의 메인 콘텐츠 -->
             <form>
                 <fieldset>
                     <legend>&nbsp;Q1) 하늘을 좋아하십니까?&nbsp;</legend>
@@ -42,40 +45,115 @@
                             <input type = "radio" name = "q1" id = "disagree"> 크게 관심은 없습니다.<br>
                         </label>
                         <label>
-                            <input type = "radio" name = "q1" id = "none"> 이곳에서 처음 고민해 보았습니다.<br>
+                            <input type = "radio" name = "q1" id = "none"> 이곳에서 처음 고민해 보았습니다.
                         </label>
                 </fieldset>
             <br>
-                <fieldset>
+                <fieldset style = "width: 100%; box-sizing: border-box; padding: 10px;">
                     <legend>&nbsp;Q1-1) 왜 그렇게 느끼셨습니까?&nbsp;</legend>
                         <label>
-                            <textarea style = "background-color: #2e2e2e; color: #f8f8f2; overflow: hidden; resize: none; width: 600px; height: auto; padding: 10px;" placeholder = "이곳에 작성해 주세요."></textarea>
+                            <textarea style = "background-color: #2e2e2e; color: #f8f8f2; overflow: hidden; resize: none; width: 100%; height: auto; padding: 10px; box-sizing: border-box;" placeholder = "이곳에 작성해 주세요."></textarea>
                         </label>
                 </fieldset>
             <br>
                 <fieldset>
-                    <legend>&nbsp;Q2) 빛나는 것을 보면 스스로도 모르게 눈길이 갑니까?&nbsp;</legend>
+                    <legend>&nbsp;Q2) 빛나는 것을 보면 자신도 모르게 눈길이 갑니까?&nbsp;</legend>
                         <label>
-                            <input type = "radio" name = "q3" id = "agree"> 그렇습니다.<br>
+                            <input type = "radio" name = "q2" id = "agree"> 그렇습니다.<br>
                         </label>
                         <label>
-                            <input type = "radio" name = "q3" id = "disagree"> 그렇지는 않습니다.<br>
+                            <input type = "radio" name = "q2" id = "disagree"> 그렇지는 않습니다.<br>
                         </label>
                         <label>
-                            <input type = "radio" name = "q3" id = "none"> 평소에 이런 고민을 해 본 적이 없습니다.<br>
+                            <input type = "radio" name = "q2" id = "none"> 평소에 이런 고민을 해 본 적이 없습니다.<br>
                         </label>
                 </fieldset>
             <br>
-                <fieldset>
+                <fieldset style = "width: 100%; box-sizing: border-box; padding: 10px;">
                     <legend>&nbsp;Q2-1) 왜 그렇게 느끼셨습니까?&nbsp;</legend>
                         <label>
-                            <textarea style = "background-color: #2e2e2e; color: #f8f8f2; overflow: hidden; resize: none; width: 600px; height: auto; padding: 10px;" placeholder = "이곳에 작성해 주세요."></textarea>
+                            <textarea style = "background-color: #2e2e2e; color: #f8f8f2; overflow: hidden; resize: none; width: 100%; height: auto; padding: 10px; box-sizing: border-box;" placeholder = "이곳에 작성해 주세요."></textarea>
+                        </label>
+                </fieldset>
+            <br>
+                <fieldset>
+                    <legend>&nbsp;Q3) 언제 태어나셨습니까?&nbsp;</legend>
+                        <label>
+                            <input type = "radio" name = "q3" id = "aqr"> 1월 20일~2월 18일 - 물병자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "psc"> 2월 19일~3월 20일 - 물고기자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "ari"> 3월 21일~4월 19일 - 양자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "tau"> 4월 20일~5월 20일 - 황소자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "gem"> 5월 21일~6월 21일 - 쌍둥이자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "cnc"> 6월 22일~7월 22일 - 게자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "leo"> 7월 23일~8월 22일 - 사자자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "vir"> 8월 23일~9월 22일 - 처녀자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "lib"> 9월 23일~10월 22일 - 천칭자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "sco"> 10월 23일~11월 22일 - 전갈자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "sgr"> 11월 23일~12월 21일 - 궁수자리<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q3" id = "cap"> 12월 22일~1월 19일 - 염소자리<br>
+                        </label>
+                </fieldset>
+            <br>
+            <fieldset>
+                    <legend>&nbsp;Q4) 본인의 별자리를 좋아하는 편입니까?&nbsp;</legend>
+                        <label>
+                            <input type = "radio" name = "q4" id = "agree"> 마음에 듭니다.<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q4" id = "disagree"> 그다지.<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q4" id = "none"> 사실 잘 모르는 상태였습니다.<br>
+                        </label>
+                </fieldset>
+            <br>
+                <fieldset style = "width: 100%; box-sizing: border-box; padding: 10px;">
+                    <legend>&nbsp;Q4-1) 선호하는 다른 별자리가 있습니까? 있다면 무엇입니까? (꼭 황도 12궁이 아니어도 괜찮습니다. 없다면 공란으로 두십시오.)&nbsp;</legend>
+                        <label>
+                            <textarea style = "background-color: #2e2e2e; color: #f8f8f2; overflow: hidden; resize: none; width: 100%; height: auto; padding: 10px; box-sizing: border-box;" placeholder = "이곳에 작성해 주세요."></textarea>
+                        </label>
+                </fieldset>
+            <br>
+                <fieldset style = "width: 100%; box-sizing: border-box; padding: 10px;">
+                    <legend>&nbsp;Q5) 앞으로 하늘을 바라볼 계획이 있습니까?&nbsp;</legend>
+                        <label>
+                            <input type = "radio" name = "q5" id = "agree"> 긍정적으로 고려 중입니다.<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q5" id = "disagree"> 아니요. 예정에 없습니다.<br>
+                        </label>
+                        <label>
+                            <input type = "radio" name = "q5" id = "none"> 저는 하늘 외의 것이 좋습니다.
                         </label>
                 </fieldset>
             </form>
+
+            <div> <!-- 제출 버튼 -->
+                <input type = "button" value = "제출한다." onclick = "alert('♬ All I want in life is a little bit of love to take the pain away ♬')" style = "font-family: inherit; background-color: #2e2e2e; color: #f8f8f2; display: block; margin-top: 5% !important; margin: 0 auto; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;"/>
+            </div>
         </main>
-            
-        </div>
         <!-- 메인 END -->
     </body>
 </html>
