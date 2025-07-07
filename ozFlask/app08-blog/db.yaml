@@ -1,0 +1,4 @@
+mysqlHost: localhost
+mysqlUser: root
+mysqlPassword: cosmos
+mysqlDB: app08
